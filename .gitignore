@@ -1,0 +1,47 @@
+# Virtual environment
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+.env.local
+.env.production.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+gov_scheme.db
+
+# IDE
+.cursor/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Railway
+.railway/
+
+# Node
+node_modules/
+npm-debug.log
